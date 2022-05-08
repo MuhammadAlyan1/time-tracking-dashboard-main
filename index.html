@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- main person div -->
+      <section class="person-container">
+        <div class="person-outer-container">
+          <div class="person-inner-container">
+            <div class="image-div">
+              <img src="./images/image-jeremy.png" alt="person" />
+            </div>
+            <div class="name-div">
+              <p>Report for</p>
+              <p>Jeremy Robson</p>
+            </div>
+          </div>
+          <div class="button-div">
+            <button id="daily" class="navigation-buttons">Daily</button>
+            <button id="weekly" class="navigation-buttons">Weekly</button>
+            <button id="monthly" class="navigation-buttons">Monthly</button>
+          </div>
+        </div>
+      </section>
+      <section class="data-container"></section>
+      <!-- reference material -->
+      <!--  <section class="work">
+        <div id="title" class="outer-div">
+          <div class="inner-div">
+            <div class="title-image">
+              <p></p>`
+              <img src="./images/icon-ellipsis.svg" />
+            </div>
+            <div class="timeframe">
+              <p class="current"></p>
+              <p class="previous"></p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
